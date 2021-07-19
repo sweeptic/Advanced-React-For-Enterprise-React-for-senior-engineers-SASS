@@ -27,6 +27,6 @@
     }
   },
   "lint-staged": {
-    "*.scss": "yarn lint:fix"
+    "*.scss": "npm run lint:fix"
   }
 }
