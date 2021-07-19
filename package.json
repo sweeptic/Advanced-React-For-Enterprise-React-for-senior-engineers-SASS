@@ -6,14 +6,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "husky": "^7.0.1",
-    "lint-staged": "^11.0.1",
-    "normalize-scss": "^7.0.1",
+    "normalize-scss": "^7.0.1"
+  },
+  "devDependencies": {
     "prettier": "^2.3.2",
     "stylelint": "^13.13.1",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-sass-guidelines": "^8.0.0",
-    "stylelint-prettier": "^1.2.0"
+    "stylelint-prettier": "^1.2.0",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.0.1"
   },
   "scripts": {
     "lint": "stylelint \"./**/*.scss\"",
