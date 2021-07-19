@@ -6,6 +6,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "node-sass": "^6.0.1",
     "normalize-scss": "^7.0.1"
   },
   "devDependencies": {
@@ -19,7 +20,8 @@
   },
   "scripts": {
     "lint": "stylelint \"./**/*.scss\"",
-    "lint:fix": "stylelint \"./**/*.scss\" --fix"
+    "lint:fix": "stylelint \"./**/*.scss\" --fix",
+    "build": "node src/scripts/build.js"
   },
   "husky": {
     "hooks": {
